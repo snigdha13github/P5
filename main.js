@@ -1,0 +1,70 @@
+function setup()
+{
+    c1=createCanvas(650,550);
+    c1.center();
+    v1=createCapture();
+    v1.hide();
+}
+function draw()
+{
+    image(v1,0,0,650,550);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(30,30,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(100,30,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(200,30,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(300,30,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(400,30,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(500,30,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(600,30,20);
+
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(700,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(800,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(30,500,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(100,500,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(200,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(300,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(400,500,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(500,500,20);
+    fill("#FFC0CB");
+    stroke("#FFC0CB");
+    square(600,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(700,500,20);
+    fill("#FF0000");
+    stroke("#FF0000");
+    circle(800,500,20);
+}
+function take_snapshot()
+{
+    save("snapshot.png")
+}
